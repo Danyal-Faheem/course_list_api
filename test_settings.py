@@ -33,6 +33,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.sessions',
     'task1',
+    'rest_framework',
 )
 
 LOCALE_PATHS = [
