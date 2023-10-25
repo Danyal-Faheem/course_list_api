@@ -20,8 +20,9 @@ class Task1Config(AppConfig):
         PluginURLs.CONFIG: {
             ProjectType.LMS: {
                PluginURLs.NAMESPACE: 'task1',
-                PluginURLs.REGEX: r'^api/task1/',
-                PluginURLs.RELATIVE_PATH: 'urls',
+               PluginURLs.APP_NAME: 'task1',
+               PluginURLs.REGEX: r'^api/task1/',
+               PluginURLs.RELATIVE_PATH: 'urls',
             },
         },
     }
