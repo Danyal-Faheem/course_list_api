@@ -142,7 +142,7 @@ setup(
     ),
     entry_points={
         "lms.djangoapp": [
-            "task1 = /Users/danyal.faheem/Developer/Training/openedx/.env/bin/python3.task1.apps:Task1Config",
+            "task1 = task1.apps:Task1Config",
         ],
         "cms.djangoapp": [
         ],
